@@ -1,27 +1,30 @@
-let homeScore = document.getElementsByClassName("home-score")
-let guestScore = document.getElementsByClassName("guest-score")
+const homeScore = document.getElementById("home-score")
+const guestScore = document.getElementById("guest-score")
+
+home = 0
+guest = 0
 
 function addOne() {
-  homeScore += 1
-  homeScore.textContent = homeScore
+  home += 1
+  homeScore.textContent = home
 }
 function addTwo() {
-  homeScore += 2
-  homeScore.textContent = homeScore
+  home += 2
+  homeScore.textContent = home
 }
 function addThree() {
-  homeScore += 3
-  homeScore.textContent = homeScore
+  home += 3
+  homeScore.textContent = home
 }
 function addOneG() {
-  guestScore += 1
-  guestScore.textContent = guestScore
+  guest += 1
+  guestScore.textContent = guest
 }
 function addTwoG() {
-  guestScore += 2
-  guestScore.textContent = guestScore
+  guest += 2
+  guestScore.textContent = guest
 }
 function addThreeG() {
-  guestScore += 3
-  guestScore.textContent = guestScore
+  guest += 3
+  guestScore.textContent = guest
 }
